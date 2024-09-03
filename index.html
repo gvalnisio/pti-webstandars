@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutricionista - Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Consultoria Nutricional</h1>
+            <p>Transforme sua saúde com a orientação de um profissional</p>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre o Nutricionista</h2>
+            <p>Com anos de experiência, oferecemos consultas personalizadas para ajudar você a atingir seus objetivos de saúde e bem-estar.</p>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="container">
+            <h2>Serviços Oferecidos</h2>
+            <div class="servico">
+                <h3>Consultas Individuais</h3>
+                <p>Atendimento personalizado para uma dieta balanceada e adequada às suas necessidades.</p>
+            </div>
+            <div class="servico">
+                <h3>Planos Alimentares</h3>
+                <p>Criação de planos alimentares específicos para dietas, emagrecimento e ganho de massa.</p>
+            </div>
+            <div class="servico">
+                <h3>Orientação Nutricional</h3>
+                <p>Educação nutricional para melhorar seus hábitos alimentares e estilo de vida.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios">
+        <div class="container">
+            <h2>Vantagens e Benefícios</h2>
+            <ul>
+                <li>Planos personalizados para suas necessidades.</li>
+                <li>Suporte contínuo para alcançar seus objetivos.</li>
+                <li>Melhoria na qualidade de vida e bem-estar.</li>
+                <li>Consultas online e presenciais.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form action="envio.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Consultoria Nutricional. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
